@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*base*/
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
@@ -21,6 +22,7 @@ h1 {
   font-family: "shrikhand";
 }
 
+/*fonctionnement*/ /*colors*/ /*mixins*/
 .fonctionnement {
   counter-reset: steps;
   padding: 1.8em 1em;
@@ -97,6 +99,7 @@ h1 {
   font-size: 1.3em;
 }
 
+/*explore*/ /*base*/
 * {
   box-sizing: border-box;
 }
@@ -211,6 +214,7 @@ footer .fa-hands-helping {
   }
 }
 
+/*header*/ /*mixins*/ /*colors*/ /*animations*/
 @keyframes validation {
   0% {
     transform: translateY(50%);
@@ -290,6 +294,7 @@ footer .fa-hands-helping {
     transform: rotate(360deg);
   }
 }
+/*fonctionnement*/ /*colors*/ /*mixins*/
 .fonctionnement {
   counter-reset: steps;
   padding: 1.8em 1em;
@@ -392,7 +397,7 @@ header {
   text-align: center;
   color: white;
   font-size: 2em;
-  animation: delay 1s 1s;
+  animation: delay 1s 3s;
   /*animation-name: backopaci;*/
   animation-fill-mode: forwards;
 }
@@ -427,6 +432,7 @@ header {
   border-bottom-color: white;
 }
 
+/*restaurants*/
 .restaurants {
   background-color: #f6f6f6;
 }
@@ -803,6 +809,7 @@ header .fa-arrow-left {
   text-align: center;
 }
 
+/*animations*/
 @keyframes validation {
   0% {
     transform: translateY(50%);
@@ -882,5 +889,6 @@ header .fa-arrow-left {
     transform: rotate(360deg);
   }
 }
+/*colors*/ /*mixins*/
 
 /*# sourceMappingURL=style.css.map */

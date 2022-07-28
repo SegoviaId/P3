@@ -1,3 +1,5 @@
+/*header*/
+
 @import "../utils/mixins.scss";
 @import "../utils/couleurs.scss";
 @import "../utils/variables.scss";
@@ -34,7 +36,7 @@ header {
     text-align: center;
     color:white;
     font-size: 2em;
-    animation: delay 1s 1s;
+    animation: delay 1s 3s;
     /*animation-name: backopaci;*/
     animation-fill-mode: forwards;
 
