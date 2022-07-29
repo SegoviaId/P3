@@ -263,29 +263,17 @@ footer .fa-hands-helping {
     opacity: 0;
   }
 }
+/*
 @keyframes backopaci {
-  10% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.9;
-  }
-  40% {
-    opacity: 0.5;
-  }
-  60% {
-    opacity: 0.3;
-  }
-  80% {
-    opacity: 0.2;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+    10% {opacity: 1;}
+    20%{opacity: 0.9;}
+    40%{opacity: 0.5;}
+    60%{opacity: 0.3;}
+    80%{opacity: 0.2;}
+    90%{opacity: 0;}
+    100%{opacity:0;}
 }
+*/
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -858,29 +846,17 @@ header .fa-arrow-left {
     opacity: 0;
   }
 }
+/*
 @keyframes backopaci {
-  10% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.9;
-  }
-  40% {
-    opacity: 0.5;
-  }
-  60% {
-    opacity: 0.3;
-  }
-  80% {
-    opacity: 0.2;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+    10% {opacity: 1;}
+    20%{opacity: 0.9;}
+    40%{opacity: 0.5;}
+    60%{opacity: 0.3;}
+    80%{opacity: 0.2;}
+    90%{opacity: 0;}
+    100%{opacity:0;}
 }
+*/
 @keyframes spin {
   0% {
     transform: rotate(0deg);
