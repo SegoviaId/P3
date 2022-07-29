@@ -55,21 +55,6 @@ h1 {
 
 .icon {
   width: 95%;
-  /*
-      &::before {
-          content: counter(steps);
-          counter-increment: steps;
-          color: white;
-          background-color: $colorprimaire;
-          padding: auto;
-          border-radius: 45em;
-          height: 1.5em;
-          width:  1.5em;
-          display: grid;
-          place-items: center;
-          position: absolute; 
-          left: -0.8em;
-      }*/
   position: relative;
   display: flex;
   align-items: center;
@@ -85,6 +70,20 @@ h1 {
     margin-right: auto;
     margin-left: auto;
   }
+}
+.icon::before {
+  content: counter(steps);
+  counter-increment: steps;
+  color: white;
+  background-color: #9356DC;
+  padding: auto;
+  border-radius: 45em;
+  height: 1.5em;
+  width: 1.5em;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  left: -0.8em;
 }
 .icon:hover {
   background-color: #e4d5f6;
@@ -329,21 +328,6 @@ footer .fa-hands-helping {
 
 .icon {
   width: 95%;
-  /*
-      &::before {
-          content: counter(steps);
-          counter-increment: steps;
-          color: white;
-          background-color: $colorprimaire;
-          padding: auto;
-          border-radius: 45em;
-          height: 1.5em;
-          width:  1.5em;
-          display: grid;
-          place-items: center;
-          position: absolute; 
-          left: -0.8em;
-      }*/
   position: relative;
   display: flex;
   align-items: center;
@@ -359,6 +343,20 @@ footer .fa-hands-helping {
     margin-right: auto;
     margin-left: auto;
   }
+}
+.icon::before {
+  content: counter(steps);
+  counter-increment: steps;
+  color: white;
+  background-color: #9356DC;
+  padding: auto;
+  border-radius: 45em;
+  height: 1.5em;
+  width: 1.5em;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  left: -0.8em;
 }
 .icon:hover {
   background-color: #e4d5f6;
@@ -506,32 +504,36 @@ header {
   box-shadow: 0 0.2em 0.6em gray;
   text-decoration: none;
   color: black;
+  /*
+  @media  (min-width:1089px) and (max-width:1504px) {
+
+     width: 30em; 
+
+
+  }
+  @media  (min-width:832px) and (max-width:1088px) {
+
+      width: 23em; 
+
+   }
+   @media  (min-width:768px) and (max-width:831px) {
+
+      width: 21em; 
+
+
+   }
+   @media  (min-width:500px) and (max-width:767px) {
+
+      width: 100%; 
+      margin-right:2em ;
+      margin-left: 2em;
+
+   }
+                         */
 }
 .card_menus .menu:hover {
   transform: scale(1.08);
   transition: transform 300ms;
-}
-@media (min-width: 1089px) and (max-width: 1504px) {
-  .card_menus .menu {
-    width: 30em;
-  }
-}
-@media (min-width: 832px) and (max-width: 1088px) {
-  .card_menus .menu {
-    width: 23em;
-  }
-}
-@media (min-width: 768px) and (max-width: 831px) {
-  .card_menus .menu {
-    width: 21em;
-  }
-}
-@media (min-width: 500px) and (max-width: 767px) {
-  .card_menus .menu {
-    width: 100%;
-    margin-right: 2em;
-    margin-left: 2em;
-  }
 }
 .card_menus .menu:hover {
   background-color: #e4d5f6;
