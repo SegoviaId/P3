@@ -55,6 +55,21 @@ h1 {
 
 .icon {
   width: 95%;
+  /*
+      &::before {
+          content: counter(steps);
+          counter-increment: steps;
+          color: white;
+          background-color: $colorprimaire;
+          padding: auto;
+          border-radius: 45em;
+          height: 1.5em;
+          width:  1.5em;
+          display: grid;
+          place-items: center;
+          position: absolute; 
+          left: -0.8em;
+      }*/
   position: relative;
   display: flex;
   align-items: center;
@@ -71,20 +86,6 @@ h1 {
     margin-left: auto;
   }
 }
-.icon::before {
-  content: counter(steps);
-  counter-increment: steps;
-  color: white;
-  background-color: #9356DC;
-  padding: auto;
-  border-radius: 45em;
-  height: 1.5em;
-  width: 1.5em;
-  display: grid;
-  place-items: center;
-  position: absolute;
-  left: -0.8em;
-}
 .icon:hover {
   background-color: #e4d5f6;
   box-shadow: 0 0.5em 1em black;
@@ -95,6 +96,7 @@ h1 {
 
 .iconcolor {
   color: gray;
+  color: aqua;
   margin: 0.1em 1em 0.1em 1.5em;
   font-size: 1.3em;
 }
@@ -263,17 +265,29 @@ footer .fa-hands-helping {
     opacity: 0;
   }
 }
-/*
 @keyframes backopaci {
-    10% {opacity: 1;}
-    20%{opacity: 0.9;}
-    40%{opacity: 0.5;}
-    60%{opacity: 0.3;}
-    80%{opacity: 0.2;}
-    90%{opacity: 0;}
-    100%{opacity:0;}
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-*/
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -315,6 +329,21 @@ footer .fa-hands-helping {
 
 .icon {
   width: 95%;
+  /*
+      &::before {
+          content: counter(steps);
+          counter-increment: steps;
+          color: white;
+          background-color: $colorprimaire;
+          padding: auto;
+          border-radius: 45em;
+          height: 1.5em;
+          width:  1.5em;
+          display: grid;
+          place-items: center;
+          position: absolute; 
+          left: -0.8em;
+      }*/
   position: relative;
   display: flex;
   align-items: center;
@@ -331,20 +360,6 @@ footer .fa-hands-helping {
     margin-left: auto;
   }
 }
-.icon::before {
-  content: counter(steps);
-  counter-increment: steps;
-  color: white;
-  background-color: #9356DC;
-  padding: auto;
-  border-radius: 45em;
-  height: 1.5em;
-  width: 1.5em;
-  display: grid;
-  place-items: center;
-  position: absolute;
-  left: -0.8em;
-}
 .icon:hover {
   background-color: #e4d5f6;
   box-shadow: 0 0.5em 1em black;
@@ -355,6 +370,7 @@ footer .fa-hands-helping {
 
 .iconcolor {
   color: gray;
+  color: aqua;
   margin: 0.1em 1em 0.1em 1.5em;
   font-size: 1.3em;
 }
@@ -846,17 +862,29 @@ header .fa-arrow-left {
     opacity: 0;
   }
 }
-/*
 @keyframes backopaci {
-    10% {opacity: 1;}
-    20%{opacity: 0.9;}
-    40%{opacity: 0.5;}
-    60%{opacity: 0.3;}
-    80%{opacity: 0.2;}
-    90%{opacity: 0;}
-    100%{opacity:0;}
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-*/
 @keyframes spin {
   0% {
     transform: rotate(0deg);

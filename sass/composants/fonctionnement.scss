@@ -51,7 +51,7 @@
          
      }
         
-
+/*
     &::before {
         content: counter(steps);
         counter-increment: steps;
@@ -65,7 +65,7 @@
         place-items: center;
         position: absolute; 
         left: -0.8em;
-    }
+    }*/
     position: relative;
     display: flex;
     align-items: center;
@@ -90,6 +90,7 @@
 
 .iconcolor {
     color: $colorteste-;
+    color: aqua;
     margin: 0.1em 1em 0.1em 1.5em;
     font-size: 1.3em;
     
