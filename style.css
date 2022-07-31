@@ -76,7 +76,7 @@ h1 {
   counter-increment: steps;
   color: white;
   background-color: #9356DC;
-  padding: auto;
+  /*padding: auto;*/
   border-radius: 45em;
   height: 1.5em;
   width: 1.5em;
@@ -349,7 +349,7 @@ footer .fa-hands-helping {
   counter-increment: steps;
   color: white;
   background-color: #9356DC;
-  padding: auto;
+  /*padding: auto;*/
   border-radius: 45em;
   height: 1.5em;
   width: 1.5em;
@@ -494,8 +494,8 @@ header {
 }
 .card_menus .menu {
   height: 15em;
-  flex-grow: 1em;
-  width: 21;
+  flex-grow: 1;
+  width: 21em;
   min-width: 20em;
   /*
   max-width: 21em; */
@@ -797,7 +797,7 @@ header .fa-arrow-left {
   place-items: center;
   background: white;
   color: #99E2D0;
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   width: 1em;
 }
 .carte .box_menu .box_détail:hover .check {
