@@ -453,7 +453,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-  padding: 0em 2em 5em 2em;
+  padding: 0em 1em 5em 1em;
   justify-content: center;
 }
 @media (min-width: 892px) and (max-width: 1504px) {
@@ -496,9 +496,9 @@ header {
   height: 15em;
   flex-grow: 1;
   width: 21em;
-  min-width: 20em;
-  /*
-  max-width: 21em; */
+  /* min-width: 20em;
+
+   max-width: 21em; */
   border-radius: 1em 1em 1em 1em;
   box-shadow: 0 0.2em 0.6em gray;
   text-decoration: none;
